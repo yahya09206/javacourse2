@@ -9,7 +9,7 @@ public class Main {
         int levelCompleted = 5;
         int bonus = 100;
 
-        calculateScore();
+        calculateScore(true, 900, 5, 100);
 
         score = 10000;
         levelCompleted = 8;
