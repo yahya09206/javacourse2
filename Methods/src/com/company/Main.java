@@ -21,7 +21,7 @@ public class Main {
         }
     }
 
-    public static void calculateScore(){
+    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
         boolean gameOver = true;
         int score = 800;
         int levelCompleted = 5;
