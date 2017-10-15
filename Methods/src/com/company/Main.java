@@ -15,7 +15,7 @@ public class Main {
         highScore = calculateScore(true, 10000, 8, 200);
         System.out.println("Your final score was " + highScore);
 
-        displayHighScorePosition();
+        displayHighScorePosition("Yahya", calculateHighScorePosition(300));
 
 //        score = 10000;
 //        levelCompleted = 8;
