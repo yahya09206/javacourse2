@@ -32,6 +32,9 @@ public class Main {
             int finalScore = score + (levelCompleted * bonus);
             finalScore += 1000;
             System.out.println("Your final score was " + finalScore);
+            return finalScore;
+        }else{
+            return -1;
         }
     }
 }
