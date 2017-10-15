@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        boolean gameOver = true;
-        int score = 800;
-        int levelCompleted = 5;
-        int bonus = 100;
+//        boolean gameOver = true;
+//        int score = 800;
+//        int levelCompleted = 5;
+//        int bonus = 100;
 
         calculateScore(true, 900, 5, 100);
         calculateScore(true, 10000, 8, 200);
@@ -22,7 +22,7 @@ public class Main {
 //        }
     }
 
-    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
+    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
 //        boolean gameOver = true;
 //        int score = 800;
 //        int levelCompleted = 5;
