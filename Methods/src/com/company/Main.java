@@ -15,6 +15,8 @@ public class Main {
         highScore = calculateScore(true, 10000, 8, 200);
         System.out.println("Your final score was " + highScore);
 
+        displayHighScorePosition();
+
 //        score = 10000;
 //        levelCompleted = 8;
 //        bonus = 200;
@@ -47,9 +49,9 @@ public class Main {
     public static int calculateHighScorePosition(int playerScore){
         if(playerScore > 1000){
             return 1;
-        }else if(playerScore > 500 <= 1000){
+        }else if((playerScore > 500) && playerScore <= 1000){
             return 2;
-        }else if(playerScore > 100 <= 500){
+        }else if(playerScore > 100 && playerScore <= 500){
             return 3;
         }else{
             return 4;
