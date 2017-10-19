@@ -25,6 +25,14 @@ public class Main {
     }
 
     public static double calcFeetAndInchesToCentimeters(double inches){
+        if(inches < 0){
+            return -1;
+        }
+
+        double feet = (int) inches / 12;
+        double remainingInches = (int) inches % 12;
+        System.out.println(inches + " inches is = to " + feet + " feet and " + remainingInches + " inches");
+        return calcFeetAndInchesToCentimeters(feet, inches);
 
     }
 
