@@ -6,6 +6,7 @@ public class Main {
 	// write your code here
         int newScore = calculateScore("john", 500);
         System.out.println("New score " + newScore);
+        calculateScore(75);
 
     }
 
