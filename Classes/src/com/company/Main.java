@@ -9,7 +9,7 @@ public class Main {
         Car bmw = new Car();
         //call setter/getter method
         audi.setModel("A8");
-        System.out.println("Finished with exit code 0");
+        System.out.println("Model is " + audi.getModel());
     }
 }
 
@@ -19,5 +19,5 @@ public class Main {
 -class is a template for creating objects
 -when defining field in java you go with the private modifiers
 -encapsulation hides fields from view outside of objects definition
--
+-always have to use "new" keyword when creating classes
 */
