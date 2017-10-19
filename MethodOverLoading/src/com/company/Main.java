@@ -3,8 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-
+        calcFeetAndInchesToCentimeters(6, 0);
 
 //        int newScore = calculateScore("john", 500);
 //        System.out.println("New score " + newScore);
@@ -14,7 +13,7 @@ public class Main {
     }
 
     public static double  calcFeetAndInchesToCentimeters(double feet, double inches){
-        if((feet >= 0) || (inches >= 0 || inches <= 12)){
+        if((feet < 0) || (inches < 0) && (inches > 12)){
             return -1;
         }
 
@@ -22,13 +21,6 @@ public class Main {
         centimeters += inches * 2.54;
         System.out.println(feet + " feet " + inches + " inches = " + centimeters + " cm");
         return centimeters;
-    }
-
-    public static double calcFeetAndInchesToCentimeters(double inches){
-        if(inches >= 0){
-
-        }
-        return -1;
     }
 
 //    public static int calculateScore(String playerName, int score){
