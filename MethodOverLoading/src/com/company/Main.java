@@ -13,7 +13,7 @@ public class Main {
     }
 
     public static double  calcFeetAndInchesToCentimeters(double feet, double inches){
-        if((feet < 0) || (inches < 0) && (inches > 12)){
+        if((feet < 0) || (inches < 0) || (inches > 12)){
             System.out.println("Invalid ft or in parameters");
             return -1;
         }
