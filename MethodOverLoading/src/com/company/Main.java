@@ -13,6 +13,13 @@ public class Main {
 
     }
 
+    public static double  calcFeetAndInchesToCentimeters(double feet, double inches){
+        if((feet >= 0) && (inches >= 0 && <= 12)){
+            double ft = 30.48 * feet;
+            double in = 2.54 * inches;
+        }
+    }
+
 //    public static int calculateScore(String playerName, int score){
 //        System.out.println("Player " + playerName + " scored " + score + " points" );
 //        return score * 1000;
