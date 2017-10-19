@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         calcFeetAndInchesToCentimeters(6, 0);
+        calcFeetAndInchesToCentimeters(100);
 
 //        int newScore = calculateScore("john", 500);
 //        System.out.println("New score " + newScore);
@@ -32,7 +33,7 @@ public class Main {
         double feet = (int) inches / 12;
         double remainingInches = (int) inches % 12;
         System.out.println(inches + " inches is = to " + feet + " feet and " + remainingInches + " inches");
-        return calcFeetAndInchesToCentimeters(feet, inches);
+        return calcFeetAndInchesToCentimeters(feet, remainingInches);
 
     }
 
