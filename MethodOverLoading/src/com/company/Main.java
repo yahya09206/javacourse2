@@ -14,11 +14,12 @@ public class Main {
     }
 
     public static double  calcFeetAndInchesToCentimeters(double feet, double inches){
-        if((feet >= 0) || (inches >= 0 && inches <= 12)){
-            double ft = 30.48 * feet;
-            double in = 2.54 * inches;
-        }
+        if((feet >= 0) || (inches >= 0 || inches <= 12)){
             return -1;
+        }
+
+        double ft = (feet * 12) * 2.54;
+        centimeters +=;
     }
 
     public static double calcFeetAndInchesToCentimeters(double inches){
