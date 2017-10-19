@@ -8,7 +8,7 @@ public class Main {
         Car audi = new Car();
         Car bmw = new Car();
         //call setter/getter method
-        audi.setModel("911");
+        audi.setModel("A8");
         System.out.println("Model is " + audi.getModel());
     }
 }

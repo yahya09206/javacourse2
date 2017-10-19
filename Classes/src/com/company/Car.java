@@ -27,3 +27,4 @@ public class Car {
 }
 
 //setters are good for when you want to do validations
+//good for not allowing people to access field directly and creating unknown models
