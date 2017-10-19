@@ -11,7 +11,13 @@ public class Car {
     //setter method for class that's attached to class publicly accessible
     public void setModel(String model){
         //keyword "this" refers to the field you're creating the setter and getter for
-        this.model = model;
+        String validModel = model.toLowerCase();
+        if(validModel.equals("a8") || validModel.equals("M7")){
+            this.model = model;
+        }else{
+            this.model = "Unknown";
+        }
+
     }
 
     //getter method to print something out
@@ -19,3 +25,5 @@ public class Car {
         return this.model;
     }
 }
+
+//setters are good for when you want to do validations
