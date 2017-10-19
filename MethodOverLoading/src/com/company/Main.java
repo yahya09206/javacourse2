@@ -14,9 +14,11 @@ public class Main {
     }
 
     public static double  calcFeetAndInchesToCentimeters(double feet, double inches){
-        if((feet >= 0) && (inches >= 0 && <= 12)){
+        if((feet >= 0) && (inches >= 0 && inches <= 12)){
             double ft = 30.48 * feet;
             double in = 2.54 * inches;
+        }
+            return -1;
         }
     }
 
