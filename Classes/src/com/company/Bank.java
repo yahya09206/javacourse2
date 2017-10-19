@@ -14,13 +14,12 @@ public class Bank {
         System.out.println("you deposited " + deposit + " your new balance is: " + balance);
     }
 
-    public void withdrawFunds(double balance){
-        double withdraw = 0;
-        if(withdraw > balance){
+    public void withdrawFunds(double withdrawAmount){
+        if(balance - withdrawAmount <= 0){
             System.out.println("Insufficient funds");
         }else{
-            withdraw -= balance;
-            System.out.println("You withdrew " + withdraw);
+            balance -= withdrawAmount;
+            System.out.println("You withdrew " + withdrawAmount);
         }
     }
 
