@@ -3,11 +3,19 @@ package com.company;
 public class Bank {
     //private fields
     private int accountNumber;
-    private int balance;
+    private double balance;
     private String customerName;
     private String email;
     private String phoneNumber;
 
+    //method for depositing funds
+    public static double depositFunds(double balance){
+        double deposit = 0;
+        deposit += balance;
+        System.out.println("you deposited " + deposit + " your new balance is: " + balance);
+    }
+
+    //getters and setters for fields
     public int getAccountNumber() {
         return accountNumber;
     }
