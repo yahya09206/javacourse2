@@ -13,6 +13,17 @@ public class Bank {
         double deposit = 0;
         deposit += balance;
         System.out.println("you deposited " + deposit + " your new balance is: " + balance);
+        return balance;
+    }
+
+    public static double withdrawFunds(double balance){
+        double withdraw = 0;
+        if(withdraw > balance){
+            System.out.println("Insufficient funds");
+        }else{
+            System.out.println("You withdrew " + withdraw);
+        }
+        return withdraw - balance;
     }
 
     //getters and setters for fields
