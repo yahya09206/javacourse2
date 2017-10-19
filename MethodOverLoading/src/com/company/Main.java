@@ -30,3 +30,4 @@ public class Main {
 
 //Lets you use the same methods with different number of parameters
 //overloading
+//cant create two method with no parameters, amount of parameters for same method name always have to be different
