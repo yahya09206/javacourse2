@@ -9,21 +9,19 @@ public class Bank {
     private String phoneNumber;
 
     //method for depositing funds
-    public static double depositFunds(double balance){
-        double deposit = 0;
-        deposit += balance;
+    public void depositFunds(double deposit){
+        this.balance += deposit;
         System.out.println("you deposited " + deposit + " your new balance is: " + balance);
-        return balance;
     }
 
-    public static double withdrawFunds(double balance){
+    public void withdrawFunds(double balance){
         double withdraw = 0;
         if(withdraw > balance){
             System.out.println("Insufficient funds");
         }else{
+            withdraw -= balance;
             System.out.println("You withdrew " + withdraw);
         }
-        return withdraw - balance;
     }
 
     //getters and setters for fields
@@ -35,7 +33,7 @@ public class Bank {
         this.accountNumber = accountNumber;
     }
 
-    public int getBalance() {
+    public double getBalance() {
         return balance;
     }
 
