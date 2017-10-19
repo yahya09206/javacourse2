@@ -14,7 +14,7 @@ public class Main {
     }
 
     public static double  calcFeetAndInchesToCentimeters(double feet, double inches){
-        if((feet >= 0) && (inches >= 0 && inches <= 12)){
+        if((feet >= 0) || (inches >= 0 && inches <= 12)){
             double ft = 30.48 * feet;
             double in = 2.54 * inches;
         }
@@ -25,6 +25,7 @@ public class Main {
         if(inches >= 0){
 
         }
+        return -1;
     }
 
 //    public static int calculateScore(String playerName, int score){
