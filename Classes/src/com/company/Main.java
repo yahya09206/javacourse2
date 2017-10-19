@@ -4,9 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+        //create instance of class
         Car audi = new Car();
         Car bmw = new Car();
-        audi.model = "A8";
+        //call setter/getter method
+        audi.setModel("A8");
+        System.out.println("Finished with exit code 0");
     }
 }
 
