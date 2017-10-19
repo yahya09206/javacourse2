@@ -13,6 +13,13 @@ public class Main {
         System.out.println("Player " + playerName + " scored " + score + " points" );
         return score * 1000;
     }
+
+    public static int calculateScore(int score){
+        System.out.println("Unmamed player scored " + score + " points" );
+        return score * 1000;
+    }
+
 }
 
-//Lets you use the same methods with different parameters
+//Lets you use the same methods with different number of parameters
+//overloading
