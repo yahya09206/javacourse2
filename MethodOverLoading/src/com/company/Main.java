@@ -18,8 +18,10 @@ public class Main {
             return -1;
         }
 
-        double ft = (feet * 12) * 2.54;
-        centimeters +=;
+        double centimeters = (feet * 12) * 2.54;
+        centimeters += inches * 2.54;
+        System.out.println(feet + " feet " + inches + " inches = " + centimeters + " cm");
+        return centimeters;
     }
 
     public static double calcFeetAndInchesToCentimeters(double inches){
