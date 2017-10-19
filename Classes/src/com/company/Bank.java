@@ -11,14 +11,14 @@ public class Bank {
     //method for depositing funds
     public void depositFunds(double deposit){
         this.balance += deposit;
-        System.out.println("you deposited " + deposit + " your new balance is: " + balance);
+        System.out.println("you deposited " + deposit + " your new balance is: " + this.balance);
     }
 
     public void withdrawFunds(double withdrawAmount){
-        if(balance - withdrawAmount <= 0){
+        if(this.balance - withdrawAmount <= 0){
             System.out.println("Insufficient funds");
         }else{
-            balance -= withdrawAmount;
+            this.balance -= withdrawAmount;
             System.out.println("You withdrew " + withdrawAmount);
         }
     }

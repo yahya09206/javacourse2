@@ -10,6 +10,10 @@ public class Main {
         //call setter/getter method
         audi.setModel("A8");
         System.out.println("Model is " + audi.getModel());
+
+        //Bank class
+        Bank bobsAccount = new Bank();
+        bobsAccount.withdrawFunds(100.0);
     }
 }
 
