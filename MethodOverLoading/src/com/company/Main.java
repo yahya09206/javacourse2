@@ -24,6 +24,10 @@ public class Main {
         return centimeters;
     }
 
+    public static double calcFeetAndInchesToCentimeters(double inches){
+
+    }
+
 //    public static int calculateScore(String playerName, int score){
 //        System.out.println("Player " + playerName + " scored " + score + " points" );
 //        return score * 1000;
