@@ -19,6 +19,11 @@ public class Main {
             double in = 2.54 * inches;
         }
             return -1;
+    }
+
+    public static double calcFeetAndInchesToCentimeters(double inches){
+        if(inches >= 0){
+
         }
     }
 
