@@ -10,7 +10,7 @@ public class Bank {
 
     //constructor for bank class
     public Bank(){
-        //how to set default values
+        //how to set default values when no other parameters are specified
         this(1234,45.6, "default name", "default email", "default phone");
         System.out.println("Empty constructor called");
     }
