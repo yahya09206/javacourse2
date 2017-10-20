@@ -7,8 +7,14 @@ public class VipCustomer {
     private String emailAddress;
 
     public VipCustomer(){
-        this(123.45,"mike","mike@123.com");
+        this(123.45, "mike", "mike@123.com");
         System.out.println("Empty constructor called");
+    }
+
+    public VipCustomer(double creditLimit, String name, String emailAddress){
+        this.creditLimit = creditLimit;
+        this.name = name;
+        this.emailAddress = emailAddress;
     }
 
     public double getCreditLimit() {
