@@ -13,6 +13,15 @@ public class Bank {
         System.out.println("Empty constructor called");
     }
 
+    //constructor for fields
+    public Bank(int accountNumber, double balance, String customerName, String email, String phoneNumber){
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
     //method for depositing funds
     public void depositFunds(double deposit){
         this.balance += deposit;
