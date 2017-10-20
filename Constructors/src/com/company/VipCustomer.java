@@ -11,6 +11,13 @@ public class VipCustomer {
         System.out.println("Empty constructor called");
     }
 
+    //constructor with 1 default value
+    public VipCustomer(double creditLimit, String name){
+        this(creditLimit, name, "jimm@123.com");
+        this.creditLimit = creditLimit;
+        this.name = name;
+    }
+
     public VipCustomer(double creditLimit, String name, String emailAddress){
         this.creditLimit = creditLimit;
         this.name = name;
