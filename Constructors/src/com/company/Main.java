@@ -13,6 +13,12 @@ public class Main {
         Bank timsAccount = new Bank("mike", "mke@gm.com", "23454");
         System.out.println(timsAccount.getPhoneNumber() + " name " + timsAccount.getCustomerName());
 
+        //calls from challenge
+        VipCustomer jimsAccount = new VipCustomer(123.45, "Jim");
+        System.out.println(jimsAccount.getEmailAddress());
+
+        VipCustomer mikesAccount = new VipCustomer();
+
     }
 }
 //Constructors let you set values easier
