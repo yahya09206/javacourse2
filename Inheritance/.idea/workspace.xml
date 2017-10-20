@@ -25,9 +25,19 @@
       <file leaf-file-name="Animal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="120">
+              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,9 +232,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
