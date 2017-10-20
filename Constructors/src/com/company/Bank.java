@@ -10,11 +10,14 @@ public class Bank {
 
     //constructor for bank class
     public Bank(){
+        //how to set default values
+        this(1234,45.6, "default name", "default email", "default phone");
         System.out.println("Empty constructor called");
     }
 
     //constructor for fields
     public Bank(int accountNumber, double balance, String customerName, String email, String phoneNumber){
+        System.out.println("Bank constructor with parameters called");
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.customerName = customerName;
