@@ -6,3 +6,5 @@ public class Main {
 	// write your code here
     }
 }
+//Constructors let you set values easier
+//Automatically created for you by java with the new keyword

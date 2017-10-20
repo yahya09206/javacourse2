@@ -8,6 +8,11 @@ public class Bank {
     private String email;
     private String phoneNumber;
 
+    //constructor for bank class
+    public Bank(){
+        System.out.println("Empty constructor called");
+    }
+
     //method for depositing funds
     public void depositFunds(double deposit){
         this.balance += deposit;
