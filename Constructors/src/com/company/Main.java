@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         //new instance of bank class
-        Bank bobsAccount = new Bank();
+        Bank bobsAccount = new Bank(12345, 123.45, "Yahya", "123@123.com", "1234567890");
     }
 }
 //Constructors let you set values easier
