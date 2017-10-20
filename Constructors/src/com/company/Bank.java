@@ -25,6 +25,13 @@ public class Bank {
         this.phoneNumber = phoneNumber;
     }
 
+    public Bank(String customerName, String email, String phoneNumber) {
+        this(1234, 345.5, customerName, email, phoneNumber);
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
     //method for depositing funds
     public void depositFunds(double deposit){
         this.balance += deposit;
