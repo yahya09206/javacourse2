@@ -4,6 +4,7 @@ public class Monitor {
     private String model;
     private String manufacturer;
     private int size;
+    //Composition
     private Resolution nativeResolution;
 
     public Monitor(String model, String manufacturer, int size, Resolution nativeResolution) {
