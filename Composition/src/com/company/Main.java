@@ -6,3 +6,6 @@ public class Main {
 	// write your code here
     }
 }
+
+//Composition deals with the 'has a relationship'
+//computer example
