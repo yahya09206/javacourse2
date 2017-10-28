@@ -14,6 +14,12 @@ public class Main {
 
         //Motherboard
         Motherboard theMotherBoard = new Motherboard("BJ-200", "Apple", 4, 5, "v2.44");
+
+        PC thePC = new PC(theCase, theMonitor, theMotherBoard);
+        //Access methods from different class. This example will draw pixels
+        thePC.getMonitor().drawPixelAt(1500,1200,"red");
+        thePC.getMotherboard().loadProgram("Sierra");
+        thePC.getTheCase().pressPowerButton();
     }
 }
 
