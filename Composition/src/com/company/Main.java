@@ -17,9 +17,12 @@ public class Main {
 
         PC thePC = new PC(theCase, theMonitor, theMotherBoard);
         //Access methods from different class. This example will draw pixels
-        thePC.getMonitor().drawPixelAt(1500,1200,"red");
-        thePC.getMotherboard().loadProgram("Sierra");
-        thePC.getTheCase().pressPowerButton();
+//        thePC.getMonitor().drawPixelAt(1500,1200,"red");
+//        thePC.getMotherboard().loadProgram("Sierra");
+//        thePC.getTheCase().pressPowerButton();
+        thePC.powerUp();
+
+        //Challenge
     }
 }
 
