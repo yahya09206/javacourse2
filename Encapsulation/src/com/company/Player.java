@@ -35,6 +35,7 @@ public class Player {
 
     public void setHandleName(String handle){
         if(handle.length() < 3){
+            System.out.println("The name " + handle + " is too short. Must be 3 characters or more.");
             return;
         }
         this.handleName = handle;
