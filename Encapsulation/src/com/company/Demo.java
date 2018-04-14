@@ -6,13 +6,11 @@ public class Demo {
 
         Player tim = new Player();
         System.out.println(tim.getHandleName());
-        tim.setHandleName("Tim");
+        tim.setNameAndLevel("Ti", 6);
         System.out.println(tim.getHandleName());
+        System.out.println("Level: " + tim.getLevel());
+        System.out.println("Lives: " + tim.getLives());
 
-        Player luis = new Player("Luis");
-        System.out.println(luis.getHandleName());
 
-        Player jim = new Player("Jim", 9);
-        System.out.println(jim.getHandleName());
     }
 }
