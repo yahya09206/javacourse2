@@ -13,12 +13,19 @@ public class Player {
         score = 0;
     }
 
+    public Player(String handle){
+        handleName = handle;
+        lives = 3;
+        level = 1;
+        score = 0;
+    }
+
     public String getHandleName(){
         return handleName;
     }
 
     public void setHandleName(String handle){
-        if(handle.length() < 4){
+        if(handle.length() < 3){
             return;
         }
         handleName = handle;

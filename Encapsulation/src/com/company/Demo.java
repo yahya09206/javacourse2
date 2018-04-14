@@ -8,5 +8,8 @@ public class Demo {
         System.out.println(tim.getHandleName());
         tim.setHandleName("Tim");
         System.out.println(tim.getHandleName());
+
+        Player luis = new Player("Luis");
+        System.out.println(luis.getHandleName());
     }
 }
