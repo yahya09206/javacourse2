@@ -6,5 +6,7 @@ public class Demo {
 
         Player tim = new Player();
         System.out.println(tim.getHandleName());
+        tim.setHandleName("Tim");
+        System.out.println(tim.getHandleName());
     }
 }
