@@ -1,15 +1,19 @@
 package com.company;
 
 public class Player {
-    String handleName;
-    int lives;
-    int level;
-    int score;
+    private String handleName;
+    private int lives;
+    private int level;
+    private int score;
 
     public Player(){
         handleName = "Unknown player";
         lives = 3;
         level = 1;
         score = 0;
+    }
+
+    public String getHandleName(){
+        return handleName;
     }
 }
