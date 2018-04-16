@@ -11,6 +11,9 @@ public class Demo {
         System.out.println("Level: " + tim.getLevel());
         System.out.println("Lives: " + tim.getLives());
 
+        Player luis = new Player("Luis");
+        System.out.println(luis.getHandleName());
+
 
     }
 }
