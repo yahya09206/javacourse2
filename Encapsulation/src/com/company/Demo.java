@@ -10,6 +10,7 @@ public class Demo {
         System.out.println(tim.getHandleName());
         System.out.println("Level: " + tim.getLevel());
         System.out.println("Lives: " + tim.getLives());
+        System.out.println(tim.getWeapon().getName());
 
         Player luis = new Player("Luis");
         System.out.println(luis.getHandleName());

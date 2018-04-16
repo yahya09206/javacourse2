@@ -29,6 +29,7 @@ public class Player {
         setLives(3);
         setLevel(startingLevel);
         setScore(0);
+        setDefaultWeapon();
     }
 
     public String getHandleName(){
@@ -41,7 +42,7 @@ public class Player {
             return;
         }
         this.handleName = handle;
-        setDefaultWeapon();
+
     }
 
     private void setDefaultWeapon(){
