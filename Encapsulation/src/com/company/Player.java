@@ -1,11 +1,14 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class Player {
     private String handleName;
     private int lives;
     private int level;
     private int score;
     private Weapon weapon;
+    private ArrayList<Loot> inventory;
 
 
     public Player(){
@@ -29,7 +32,8 @@ public class Player {
         setLives(3);
         setLevel(startingLevel);
         setScore(0);
-        setDefaultWeapon();
+//        setDefaultWeapon();
+        inventory = new ArrayList<>();
     }
 
     public String getHandleName(){
@@ -86,5 +90,13 @@ public class Player {
 
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
+    }
+
+    public ArrayList<Loot> getInventory() {
+        return inventory;
+    }
+
+    public void setInventory(ArrayList<Loot> inventory) {
+        this.inventory = inventory;
     }
 }
