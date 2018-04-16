@@ -17,7 +17,5 @@ public class Demo {
         tim.setWeapon(myAxe);
         System.out.println(tim.getWeapon().getName());
 
-
-
     }
 }
