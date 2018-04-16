@@ -28,8 +28,8 @@ public class Demo {
 
         tim.showInventory();
 
-        Loot bluePotion = new Loot("Blue Potion", LootType.POTION, 6);
-        boolean wasDeleted = tim.dropLoot(bluePotion);
+//        Loot bluePotion = new Loot("Blue Potion", LootType.POTION, 6);
+        boolean wasDeleted = tim.dropLoot(redPotion);
         System.out.println(wasDeleted);
         tim.showInventory();
 
