@@ -96,7 +96,20 @@ public class Player {
         return inventory;
     }
 
-    public void setInventory(ArrayList<Loot> inventory) {
-        this.inventory = inventory;
+//    public void setInventory(ArrayList<Loot> inventory) {
+//        this.inventory = inventory;
+//    }
+
+    //method for player picking up loot
+    public void pickUpLoot(Loot newLoot){
+        inventory.add(newLoot);
+    }
+
+    public boolean dropLoot(Loot loot){
+        if(this.inventory.contains(loot)){
+            inventory.remove(loot);
+            return true;
+        }
+        return false;
     }
 }

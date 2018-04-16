@@ -17,5 +17,8 @@ public class Demo {
         tim.setWeapon(myAxe);
         System.out.println(tim.getWeapon().getName());
 
+        Loot redPotion = new Loot("Red Potion", LootType.POTION, 7);
+        tim.pickUpLoot(redPotion);
+
     }
 }
