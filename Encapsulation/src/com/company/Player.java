@@ -78,4 +78,12 @@ public class Player {
     public void setScore(int score) {
         this.score = score;
     }
+
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
+    }
 }
