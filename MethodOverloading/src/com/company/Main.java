@@ -8,6 +8,8 @@ public class Main {
         System.out.println("New score is " + newScore);
         calculateScore(75);
         calculateScore();
+        calcFeetAndInchesToCentimeters(7,9);
+        calcFeetAndInchesToCentimeters(4);
     }
 
     // Calculate score method
@@ -34,5 +36,14 @@ public class Main {
             System.out.println("Feet to cm " + fttocm + ", inches to cm " + inchtocm);
         }
         return -1;
+    }
+
+    public static double calcFeetAndInchesToCentimeters(double inches){
+        if(inches >= 0){
+            double feettoinches = inches/12;
+            System.out.println(feettoinches);
+            return feettoinches;
+        }
+            return -1;
     }
 }
