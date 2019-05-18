@@ -19,14 +19,6 @@ public class Main {
 //        highScore = calculateScore(gameOver, score, levelCompleted, bonus);
 //        System.out.println("Your final score was " + highScore);
 
-        // Method call for challenge
-        displayHighScorePosition("john", calculateHighScorePosition(1500));
-        displayHighScorePosition("john", calculateHighScorePosition(900));
-        displayHighScorePosition("john", calculateHighScorePosition(400));
-        displayHighScorePosition("john", calculateHighScorePosition(50));
-
-
-
     }
 
     // Method to calculate score
@@ -41,21 +33,29 @@ public class Main {
 //        }
 //    }
 
-    // Challenge for Method lecture
-    public static void displayHighScorePosition(String name, int position){
-        System.out.println(name + " managed to get into position " + position + " on the high score table.");
-    }
-
-    public static int calculateHighScorePosition(int score){
-        if (score > 1000){
-            return 1;
-        } else if (score > 500 && score <= 1000){
-            return 2;
-        } else if (score > 100 && score <= 500){
-            return 3;
-        } else {
-            return 4;
-        }
-    }
-
 }
+
+// CHALLENGE 1
+    // Method call for challenge
+//    displayHighScorePosition("john", calculateHighScorePosition(1500));
+//        displayHighScorePosition("john", calculateHighScorePosition(900));
+//        displayHighScorePosition("john", calculateHighScorePosition(400));
+//        displayHighScorePosition("john", calculateHighScorePosition(50));
+
+
+//    // Challenge for Method lecture
+//    public static void displayHighScorePosition(String name, int position){
+//        System.out.println(name + " managed to get into position " + position + " on the high score table.");
+//    }
+//
+//    public static int calculateHighScorePosition(int score){
+//        if (score >= 1000){
+//            return 1;
+//        } else if (score >= 500 && score < 1000){
+//            return 2;
+//        } else if (score >= 100 && score < 500){
+//            return 3;
+//        } else {
+//            return 4;
+//        }
+//    }
