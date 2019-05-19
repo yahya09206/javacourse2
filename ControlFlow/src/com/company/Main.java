@@ -58,5 +58,19 @@ public class Main {
                 System.out.println("A to E was not found");
                 break;
         }
+
+        //Switch statement using a string
+        String month = "January";
+        switch(month.toLowerCase()){
+            case "january":
+                System.out.println("Jan");
+                break;
+            case "june":
+                System.out.println("Jun");
+                break;
+            default:
+                System.out.println("Not sure");
+                break;
+        }
     }
 }
