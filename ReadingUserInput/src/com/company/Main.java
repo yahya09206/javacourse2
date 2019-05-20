@@ -10,6 +10,7 @@ public class Main {
 
         System.out.println("Enter your year of birth: ");
         int yearOfBirth = scanner.nextInt();
+        scanner.nextLine(); // handle next line character (enter key)
 
 
         System.out.println("Enter you name: ");
