@@ -23,12 +23,16 @@ public class Main {
 
         int number = 4;
         int finishNum = 20;
+        int totalNum = 0;
         while(number <= finishNum){
             number++;
             if (!isEvenNumber(number)){
                 continue;
             }
+            totalNum++;
+            System.out.println("Even number " + number);
         }
+        System.out.println("Total amount of even numbers is " + totalNum);
     }
 
 
