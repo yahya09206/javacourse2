@@ -30,6 +30,9 @@ public class Main {
                 continue;
             }
             totalNum++;
+            if (totalNum >= 5){
+                break;
+            }
             System.out.println("Even number " + number);
         }
         System.out.println("Total amount of even numbers is " + totalNum);
