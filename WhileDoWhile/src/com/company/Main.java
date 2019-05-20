@@ -20,7 +20,17 @@ public class Main {
             }
 
         }while (count != 6);
+
+        int number = 4;
+        int finishNum = 20;
+        while(number <= finishNum){
+            number++;
+            if (!isEvenNumber(number)){
+                continue;
+            }
+        }
     }
+
 
     // While loop challenge
     public static boolean isEvenNumber(int num){
