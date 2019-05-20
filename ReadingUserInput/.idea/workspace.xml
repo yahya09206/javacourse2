@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/../ForLoop/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ForLoop/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Parsing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Parsing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Parsing/out/production/Parsing/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Parsing/out/production/Parsing/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Switch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Switch/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WhileDoWhile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WhileDoWhile/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -26,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -68,6 +69,9 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,8 +159,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
