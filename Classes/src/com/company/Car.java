@@ -10,8 +10,10 @@ public class Car {
 
     public void setModel(String model){
         String validModel = model.toLowerCase();
-        if (validModel.equals("Tesla") || validModel.equals("Audi")){
+        if (validModel.equals("model X") || validModel.equals("a8")){
             this.model = model;
+        }else {
+            this.model = "Unknown";
         }
     }
 

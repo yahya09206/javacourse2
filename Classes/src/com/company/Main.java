@@ -7,7 +7,7 @@ public class Main {
         // Create Car Object
         Car audi = new Car();
         Car tesla = new Car();
-        audi.setModel("A8");
+        audi.setModel("a8");
         System.out.println("Model is " + audi.getModel());
     }
 }
