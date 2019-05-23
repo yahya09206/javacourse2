@@ -9,5 +9,7 @@ public class Main {
         Car tesla = new Car();
         audi.setModel("a8");
         System.out.println("Model is " + audi.getModel());
+
+        // Classes challenge
     }
 }
