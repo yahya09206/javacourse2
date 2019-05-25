@@ -52,5 +52,13 @@ public class BankAccount {
         System.out.println("Your new balance is " + this.balance);
     }
 
+    public void withdraw(double withdrawAmount){
+        if (this.balance - withdrawAmount < 0 ){
+            System.out.println("Sorry not enough funds available");
+        }else {
+            this.balance -= withdrawAmount;
+            System.out.println("You withdrew " + withdrawAmount + ". You have " + this.balance + " dollars left.");
+        }
+    }
 
 }

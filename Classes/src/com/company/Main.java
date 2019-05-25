@@ -11,5 +11,10 @@ public class Main {
         System.out.println("Model is " + audi.getModel());
 
         // Classes challenge
+        BankAccount account = new BankAccount();
+        account.setAccountNumber(1234);
+        System.out.println("Account number is " + account.getAccountNumber());
+        account.depositFunds(300.00);
+        System.out.println(account.depositFunds());
     }
 }
