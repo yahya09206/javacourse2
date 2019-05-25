@@ -9,6 +9,8 @@ public class BankAccount {
 
     //Add constructor
     public BankAccount(){
+        //Create default parameters
+        this(1234, 2.50, "Default name", "default email", "default phone number");
         System.out.println("Empty constructor called");
     }
 
