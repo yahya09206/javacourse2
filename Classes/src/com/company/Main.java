@@ -15,6 +15,9 @@ public class Main {
         account.setAccountNumber(1234);
         System.out.println("Account number is " + account.getAccountNumber());
         account.depositFunds(300.00);
-        System.out.println(account.depositFunds());
+        System.out.println(account.getBalance());
+        account.withdraw(200);
+        account.depositFunds(100000);
+
     }
 }
