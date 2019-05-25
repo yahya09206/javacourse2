@@ -13,6 +13,7 @@ public class BankAccount {
     }
 
     public BankAccount(int accountNumber, double balance, String name, String email, String phoneNumber){
+        System.out.println("Account constructor with parameters called");
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.name = name;
