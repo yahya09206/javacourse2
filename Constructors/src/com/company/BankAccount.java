@@ -11,7 +11,7 @@ public class BankAccount {
     public BankAccount(){
         //Create default parameters
         this(1234, 2.50, "Default name", "default email", "default phone number");
-        System.out.println("Empty constructor called");
+        System.out.println("Default constructor called");
     }
 
     public BankAccount(int accountNumber, double balance, String name, String email, String phoneNumber){
@@ -23,7 +23,9 @@ public class BankAccount {
         this.phoneNumber = phoneNumber;
     }
 
-
+    public BankAccount(String name, String email, String phoneNumber) {
+        this(9999, 100.55, name, email, phoneNumber);
+    }
 
     public int getAccountNumber() {
         return accountNumber;
