@@ -1,18 +1,26 @@
 package com.company;
 
 public class Animal {
+    private String name;
     private int brain;
     private int body;
     private int size;
     private int weight;
-    private String name;
 
-    public Animal(int brain, int body, int size, int weight, String name) {
+    public Animal(String name, int brain, int body, int size, int weight) {
         this.brain = brain;
         this.body = body;
         this.size = size;
         this.weight = weight;
         this.name = name;
+    }
+
+    public void eat() {
+
+    }
+
+    public void move() {
+
     }
 
     public int getBrain() {
