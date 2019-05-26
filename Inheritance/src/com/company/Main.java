@@ -9,5 +9,6 @@ public class Main {
 
         Dog basicDog = new Dog("Yorkie", 8,20,2,4,1,20,"long silky coat");
         basicDog.eat();
+        basicDog.run();
     }
 }
