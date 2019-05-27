@@ -16,7 +16,7 @@ public class PC {
         return theCase;
     }
 
-    public Monitor getMonitors() {
+    public Monitor getMonitor() {
         return monitors;
     }
 

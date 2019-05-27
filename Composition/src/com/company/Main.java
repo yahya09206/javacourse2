@@ -14,5 +14,8 @@ public class Main {
 
         // New PC
         PC thePC = new PC(theCase, theMonitor, theMotherBoard);
+        thePC.getMonitor().drawPixelAt(1500,1200,"red");
+        thePC.getMotherBoard().loadProgram("Windows 1.0");
+        thePC.getTheCase().pressPowerButton();
     }
 }
