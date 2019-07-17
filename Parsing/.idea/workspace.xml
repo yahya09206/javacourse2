@@ -5,10 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../ForLoop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ForLoop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ForLoop/out/production/ForLoop/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ForLoop/out/production/ForLoop/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ForLoop/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ForLoop/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Switch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Switch/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WhileDoWhile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WhileDoWhile/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -125,7 +121,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" visible="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.5005325" side_tool="true" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.5005325" side_tool="true" weight="0.32953367" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />

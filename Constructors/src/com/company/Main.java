@@ -10,5 +10,9 @@ public class Main {
 
         BankAccount timsAccount = new BankAccount("Tim", "Tim@email.com", "12345");
         System.out.println(timsAccount.getPhoneNumber() + " name " + timsAccount.getName());
+
+        //Constructor Challenge
+        VipClass vipClass = new VipClass("joe", 433.55);
+        System.out.println(vipClass.getName() + " credit limit is " + vipClass.getCreditLimit());
     }
 }

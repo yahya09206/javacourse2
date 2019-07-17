@@ -21,6 +21,18 @@ public class Main {
             System.out.println("10,000 at " + i + "% interest = " + calculateInterest(10000, i));
         }
 
+        int count = 0;
+        for (int i = 10; i < 50; i++){
+            if(isPrime(i)){
+                count++;
+                System.out.println("Number " + i + " is a prime number");
+                if (count == 3){
+                    System.out.println("Exiting for loop...");
+                    break;
+                }
+            }
+        }
+
     }
 
     public static boolean isPrime(int n){
