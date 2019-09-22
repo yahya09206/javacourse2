@@ -13,10 +13,10 @@ public class Main {
 //        System.out.println(myIntArray[8]);
 
         // use for loop to run through array
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < myIntArray.length; i++) {
             myIntArray[i] = i * 10;
         }
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < myIntArray.length; i++) {
             System.out.println("Element " + i + ", value is " + myIntArray[i]);
         }
     }
