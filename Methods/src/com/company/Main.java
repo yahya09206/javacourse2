@@ -10,7 +10,7 @@ public class Main {
 
 	    calculateScore();
 
-	    score = 100000;
+	    score = 10000;
 	    levelCompleted = 8;
 	    bonus = 200;
 
@@ -20,7 +20,7 @@ public class Main {
         }
     }
 
-    public static void calculateScore(){
+    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
         boolean gameOver = true;
         int score = 100;
         int levelCompleted = 5;
