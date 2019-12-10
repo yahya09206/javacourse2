@@ -8,7 +8,7 @@ public class Main {
 	    int levelCompleted = 5;
 	    int bonus = 100;
 
-	    calculateScore();
+	    calculateScore(true, 100, 6, 25000);
 
 	    score = 10000;
 	    levelCompleted = 8;
@@ -21,10 +21,6 @@ public class Main {
     }
 
     public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
-        boolean gameOver = true;
-        int score = 100;
-        int levelCompleted = 5;
-        int bonus = 100;
 
         if (gameOver){
             int finalScore = score + (levelCompleted * bonus);
