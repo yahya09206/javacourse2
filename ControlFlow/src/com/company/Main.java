@@ -3,6 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
+        printDayOfTheWeek(1);
+        printDayOfTheWeek(5);
 	// write your code here
 //        int value = 1;
 //        if(value == 1){
@@ -50,6 +53,26 @@ public class Main {
             default:
                 System.out.println("Value was neither A or B");
                 break;
+        }
+    }
+
+    public static void printDayOfTheWeek(int day){
+
+        switch(day){
+            case 0:
+                System.out.println("Value was Sunday");
+                break;
+
+            case 1:
+                System.out.println("Value was Monday");
+                break;
+
+            case 6:
+                System.out.println("Value was Saturday");
+                break;
+
+            default:
+                System.out.println("No values found");
         }
     }
 }
