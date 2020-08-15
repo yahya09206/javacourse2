@@ -39,11 +39,11 @@ public class Main {
         char charValue = 'A';
 
         switch(charValue){
-            case 1:
+            case 'A':
                 System.out.println("Value was A");
                 break;
 
-            case 2:
+            case 'B':
                 System.out.println("Value was B");
                 break;
 
