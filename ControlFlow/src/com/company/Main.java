@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        printDayOfTheWeek(1);
 	    int value = 1;
 	    if (value == 1){
             System.out.println("Value was 1");
@@ -50,6 +51,42 @@ public class Main {
                 System.out.println("None of the values were found");
                 break;
         }
-
     }
+    //2nd switch statement challenge Day of The Week
+    public static void printDayOfTheWeek(int day){
+        switch(day){
+            case 0:
+                System.out.println("Sunday");
+                break;
+
+            case 1:
+                System.out.println("Monday");
+                break;
+
+            case 2:
+                System.out.println("Tuesday");
+                break;
+
+            case 3:
+                System.out.println("Wendnesday");
+                break;
+
+            case 4:
+                System.out.println("Thursday");
+                break;
+
+            case 5:
+                System.out.println("Friday");
+                break;
+
+            case 6:
+                System.out.println("Saturday");
+                break;
+
+            default:
+                System.out.println("Invalid day");
+                break;
+        }
+    }
+
 }
