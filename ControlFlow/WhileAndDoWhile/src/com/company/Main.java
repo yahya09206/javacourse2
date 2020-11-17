@@ -53,4 +53,27 @@ public class Main {
        }
        return false;
     }
+
+
+    public static int getEvenDigitSum(int number){
+        int lastDigit = 0;
+
+        if(number < 0){
+            return -1;
+        }else {
+            int sum = 0;
+            do {
+                //find last digit of a number
+                lastDigit = number % 10;
+
+                //Check if its even
+                if (lastDigit % 2 == 0) {
+                    sum += lastDigit % 10;
+                }
+                //Remove last digit of number
+                number /= 10;
+            } while (number > 0);
+            return sum;
+        }
+    }
 }
