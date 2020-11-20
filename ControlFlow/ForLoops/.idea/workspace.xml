@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c69c82ae-d5ea-4a4f-973f-d845cb214155" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Intro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Intro/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MethodOverLoading/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MethodOverLoading/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Methods/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Methods/.idea/workspace.xml" afterDir="false" />
@@ -100,7 +99,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="958" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -110,12 +108,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03275109" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32953367" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32953367" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
