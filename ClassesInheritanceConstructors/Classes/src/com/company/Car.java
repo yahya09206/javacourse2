@@ -7,4 +7,15 @@ public class Car {
     private String model;
     private String engine;
     private String color;
+
+    // method to update model
+    public void setModel(String model){
+        this.model = model;
+    }
+
+    public String getModel(){
+        return this.model;
+    }
+
+
 }
