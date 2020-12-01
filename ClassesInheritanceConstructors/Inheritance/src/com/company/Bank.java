@@ -8,6 +8,29 @@ public class Bank {
     private String  email;
     private String  phoneNumber;
 
+    // Constructor for easy access in main method
+    public Bank(int accountNumber, double balance, String name, String email, String phoneNumber){
+        System.out.println("Constructor with parameters called");
+        this.accountNumber  = accountNumber;
+        this.balance        = balance;
+        this.name           = name;
+        this.email          = email;
+        this.phoneNumber    = phoneNumber;
+    }
+
+
+    public Bank(){
+        this(56789, 2.50, "Default name", "default address",
+                "default phone number");
+        System.out.println("Empty constructor called");
+    }
+
+    public Bank(String name, String email, String phoneNumber) {
+        this(999999, 100.55, name, email, phoneNumber);
+        this.name           = name;
+        this.email          = email;
+        this.phoneNumber    = phoneNumber;
+    }
 
     // getters and setters for fields
     public int getAccountNumber(){
