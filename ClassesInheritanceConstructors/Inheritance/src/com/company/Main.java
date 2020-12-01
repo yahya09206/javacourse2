@@ -19,5 +19,15 @@ public class Main {
 
         Bank timsBank = new Bank("tim", "tim@email.com", "12345");
         System.out.println(timsBank.getAccountNumber() + " name " + timsBank.getName());
+
+        VipCustomer person1 = new VipCustomer();
+        System.out.println(person1.getName());
+
+        VipCustomer person2 = new VipCustomer("Bob", 25000.00);
+        System.out.println(person2.getName());
+
+        VipCustomer person3 = new VipCustomer("Tim", 100.00, "tim@email.com");
+        System.out.println(person3.getEmailAddress());
+
     }
 }
