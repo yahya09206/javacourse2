@@ -10,7 +10,13 @@ public class Car {
 
     // method to update model
     public void setModel(String model){
-        this.model = model;
+        String validModel = model.toLowerCase();
+        if (validModel.equals("b7") || validModel.equals("commodore")){
+            this.model = model;
+        } else {
+            this.model = "unknown";
+        }
+
     }
 
     public String getModel(){
