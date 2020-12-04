@@ -6,7 +6,6 @@ public class Main {
 	// write your code here
         Car bmw = new Car();
         Car holden = new Car();
-
         bmw.setModel("m8");
         System.out.println("Model is " + bmw.getModel());
 
