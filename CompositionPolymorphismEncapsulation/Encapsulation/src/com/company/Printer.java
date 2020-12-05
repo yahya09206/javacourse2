@@ -21,14 +21,21 @@ public class Printer {
             if (this.tonerLevel + fill > 100){
                 return -1;
             }
+            this.tonerLevel += fill;
+            return this.tonerLevel;
         }else {
             return -1;
         }
-        this.tonerLevel += fill;
     }
 
-    public void printPage(){
-        System.out.println("Printing in progres....");
+    public int printPages(int pages){
+        int pagesToPrint = pages;
+        if (this.duplexPrinter){
+            pagesToPrint = (pages / 2) + (pages % 2);
+            System.out.println("Printing in duplex....");
+        }
+        this.pagesPrinted += pagesToPrint;
+        return pagesToPrint;
     }
 
     public int getTonerLevel() {
