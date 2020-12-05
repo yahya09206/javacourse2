@@ -6,7 +6,7 @@ public class Printer {
     private int pagesPrinted;
     private boolean duplexPrinter;
 
-    public Printer(int tonerLevel, int pagesPrinted, boolean duplexPrinter) {
+    public Printer(int tonerLevel, boolean duplexPrinter) {
         if (tonerLevel > -1 && tonerLevel <= 100){
             this.tonerLevel = tonerLevel;
         } else {
