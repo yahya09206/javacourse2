@@ -6,3 +6,9 @@ public class Main {
 	// write your code here
     }
 }
+
+//Inheritance is known as
+    //is-a relationship with vehicle
+        //meaning a car is a vehicle
+
+//Composition is a Has-A relationship
