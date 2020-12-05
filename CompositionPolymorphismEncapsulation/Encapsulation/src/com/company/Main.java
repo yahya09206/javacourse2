@@ -20,5 +20,7 @@ public class Main {
 
         EnhancedPlayer player = new EnhancedPlayer("Tim", 200, "Sword");
         System.out.println("Initial health is " + player.getHealth());
+        Printer printer = new Printer(50, 5, false);
+        System.out.println("Toner level is " + printer.getTonerLevel());
     }
 }
