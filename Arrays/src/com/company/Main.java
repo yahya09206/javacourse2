@@ -10,6 +10,7 @@ public class Main {
 
         //Access array element
         //myIntArray[5] = 50;
+        reverse("Mississippi");
 
         double[] myDoubleArray = new double[10];
 
@@ -34,6 +35,7 @@ public class Main {
             System.out.println("Element " + i + ", typed value was " + myIntegers[i]);
         }
         System.out.println("The average is " + getAverage(myIntegers));
+
 
     }
 
@@ -61,4 +63,15 @@ public class Main {
             System.out.println("Element " + i + ", value is " + array[i]);
         }
     }
+
+    public static String reverse(String text){
+        String result = "";
+        for (int i = 0; i < text.length(); i++){
+            result = text.charAt(i) + result;
+        }
+        System.out.println(result);
+        return result;
+
+    }
+
 }
