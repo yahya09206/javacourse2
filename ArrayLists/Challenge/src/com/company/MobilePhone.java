@@ -34,6 +34,18 @@ public class MobilePhone {
         return true;
     }
 
+    // Remove contact
+    public boolean removeContact(Contacts contacts){
+        int foundPosition = findContact(contacts);
+        if (foundPosition < 0){
+            System.out.println(contacts.getName() + ", was not found");
+            return false;
+        }
+        this.contacts.remove(foundPosition);
+        System.out.println(contacts.getName() + ", was deleted");
+        return true;
+    }
+
 
     // Method to find contact name
     private int findContact(Contacts searchName){
@@ -52,7 +64,7 @@ public class MobilePhone {
 
     // Query contact list
     public String queryContact(Contacts contacts){
-        if (findContact() > 0){
+        if (findContact(contacts) > 0){
             return contacts.getName();
         }
         return null;
