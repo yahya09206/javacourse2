@@ -10,10 +10,15 @@ public class Contacts {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public String getPhoneNumber() {
-        return phoneNumber;
+        return this.phoneNumber;
+    }
+
+    // Method to create a contact
+    public static Contacts createContact(String name, String phoneNumber){
+        return new Contacts(name, phoneNumber);
     }
 }

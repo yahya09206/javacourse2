@@ -4,36 +4,42 @@ import java.util.ArrayList;
 
 public class MobilePhone {
 
-    private ArrayList<Contacts> contacts = new ArrayList<Contacts>();
+    private String myNumber;
+    private ArrayList<Contacts> contacts;
+
+    public MobilePhone(String myNumber) {
+        this.myNumber = myNumber;
+        this.contacts = new ArrayList<Contacts>();
+    }
 
     // Method to add contacts
-    public void addContact(Contacts contact){
-        String name = contact.getName();
+    public boolean addContact(Contacts contact){
+        if (findContact(contact.getName()) >= 0){
+            System.out.println("Contact is already on file");
+            return false;
+        }
+
         contacts.add(contact);
-        System.out.println("Successfully added " + name);
+        return true;
     }
 
     public ArrayList<Contacts> getContactsList(){
         return contacts;
     }
 
-    public void printContactList(){
-        System.out.println("You have " + contacts.size() + " contacts in your mobile phone");
-        for (int i = 0; i < contacts.size(); i++){
-            System.out.println((i + 1) + ". " + contacts.get(i));
-        }
+
+    // Method to find contact name
+    private int findContact(Contacts searchName){
+        return this.contacts.indexOf(searchName);
     }
 
-    private void modifyContacts(int position, Contacts newContact){
-        contacts.set(position, newContact);
-        System.out.println("Contact " + (position + 1) + " has been modified");
-    }
-
-    public void removeContact(Contacts name){
-        int position = findItem(name){
-            if(position >= 0){
-                modifyContacts(position, name);
+    private int findContact(String contactName){
+        for (int i = 0; i < this.contacts.size(); i++){
+            Contacts contact = this.contacts.get(i);
+            if (contact.getName().equals(contactName)) {
+                return i;
             }
         }
+        return -1;
     }
 }
