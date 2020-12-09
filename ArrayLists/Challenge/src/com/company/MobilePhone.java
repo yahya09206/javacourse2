@@ -31,10 +31,7 @@ public class MobilePhone {
         }
         this.contacts.set(foundPosition, newContact);
         System.out.println(oldContact.getName() + ", was replaced with " + newContact.getName());
-    }
-
-    public ArrayList<Contacts> getContactsList(){
-        return contacts;
+        return true;
     }
 
 
@@ -51,5 +48,13 @@ public class MobilePhone {
             }
         }
         return -1;
+    }
+
+    // Query contact list
+    public String queryContact(Contacts contacts){
+        if (findContact() > 0){
+            return contacts.getName();
+        }
+        return null;
     }
 }
