@@ -38,7 +38,7 @@ public class GroceryList {
         // Return item that's actualy in the list
         int position = groceryList.indexOf(searchItem);
         if (position >= 0){
-            groceryList.get(position);
+            return groceryList.get(position);
         }
         return null;
     }
