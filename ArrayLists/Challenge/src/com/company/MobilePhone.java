@@ -23,6 +23,16 @@ public class MobilePhone {
         return true;
     }
 
+    public boolean updateContact(Contacts oldContact, Contacts newContact){
+        int foundPosition = findContact(oldContact);
+        if (foundPosition < 0){
+            System.out.println(oldContact.getName() + ", was not found");
+            return false;
+        }
+        this.contacts.set(foundPosition, newContact);
+        System.out.println(oldContact.getName() + ", was replaced with " + newContact.getName());
+    }
+
     public ArrayList<Contacts> getContactsList(){
         return contacts;
     }
