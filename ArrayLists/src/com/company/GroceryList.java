@@ -27,7 +27,7 @@ public class GroceryList {
     }
 
     // Remove an item
-    public void modifyGroceryItem(int position){
+    public void removeGroceryItem(int position){
         String theItem = groceryList.get(position);
         groceryList.remove(position);
     }
