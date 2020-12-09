@@ -20,6 +20,14 @@ public class GroceryList {
         }
     }
 
+    // Method to modify list less redundantly
+    public void modifyGroceryItem(String newItem){
+        int position = findItem(newItem);
+        if (position >= 0){
+            modifyGroceryItem(position, newItem);
+        }
+    }
+
     // Replace an item in the list
     public void modifyGroceryItem(int position, String newItem){
         groceryList.set(position, newItem);
@@ -33,13 +41,14 @@ public class GroceryList {
     }
 
     // Find item returns true or false
-    public String findItem(String searchItem){
+    public int findItem(String searchItem){
 //        boolean exists = groceryList.contains(searchItem);
         // Return item that's actualy in the list
-        int position = groceryList.indexOf(searchItem);
-        if (position >= 0){
-            return groceryList.get(position);
-        }
-        return null;
+        return groceryList.indexOf(searchItem);
+//        int position = groceryList.indexOf(searchItem);
+//        if (position >= 0){
+//            return groceryList.get(position);
+//        }
+//        return null;
     }
 }
