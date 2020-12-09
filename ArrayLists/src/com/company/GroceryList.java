@@ -23,7 +23,7 @@ public class GroceryList {
     // Replace an item in the list
     public void modifyGroceryItem(int position, String newItem){
         groceryList.set(position, newItem);
-        System.out.println("Grocery item " + (position + 1) + " has been modified");
+        System.out.println("Grocery item " + (position+1) + " has been modified");
     }
 
     // Remove an item
