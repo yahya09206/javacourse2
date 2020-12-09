@@ -31,4 +31,15 @@ public class GroceryList {
         String theItem = groceryList.get(position);
         groceryList.remove(position);
     }
+
+    // Find item returns true or false
+    public String findItem(String searchItem){
+//        boolean exists = groceryList.contains(searchItem);
+        // Return item that's actualy in the list
+        int position = groceryList.indexOf(searchItem);
+        if (position >= 0){
+            groceryList.get(position);
+        }
+        return null;
+    }
 }
