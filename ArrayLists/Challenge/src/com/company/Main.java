@@ -21,7 +21,7 @@ public class Main {
                     showMenuChoices();
                     break;
                 case 2:
-                    MobilePhone.printContactList();
+                    MobilePhone.printContacts();
                     break;
                 case 3:
                     findContact();
