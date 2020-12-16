@@ -63,4 +63,23 @@ public class Main {
         Contacts contacts = new Contacts(name, phoneNumber);
         MobilePhone.addContact(contacts);
     }
+
+    public static void findContact(){
+        System.out.println("Enter name to look for: ");
+        String name = scanner.nextLine();
+        MobilePhone.findContact(name);
+
+    }
+
+    public static void removeContact(){
+        System.out.println("Enter name to remove: ");
+        String name = scanner.nextLine();
+        MobilePhone.removeContact(name);
+    }
+
+    public static void editContact(){
+        System.out.println("Enter name to edit: ");
+        String name = scanner.nextLine();
+        MobilePhone.editContact(name);
+    }
 }
