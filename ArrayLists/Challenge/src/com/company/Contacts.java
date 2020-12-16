@@ -1,11 +1,11 @@
 package com.company;
 
-public class Contact {
+public class Contacts {
 
     private String name;
     private String phoneNumber;
 
-    public Contact(String name, String phoneNumber){
+    public Contacts(String name, String phoneNumber){
         this.name = name;
         this.phoneNumber = phoneNumber;
     }
